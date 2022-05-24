@@ -1,0 +1,168 @@
+.html{
+    border: 0;
+}
+
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+    border:none;
+}
+
+.logo-img{
+    height: 60px;
+    width: 150px;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+a{
+    margin: 20px; 
+    text-decoration: none;
+    vertical-align: middle;
+    color: grey;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.anchor{
+    text-align: center;
+    padding: 30px;
+}
+
+.anchor:hover{
+    border: none;
+    background-color: #fafafa;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+.anchor1{
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid #7459d0;
+}
+
+.nav-headings{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Login-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.log-button
+{
+    margin: 10px;
+    margin-right: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    height: 60px;
+    width: 150px;
+    background-color: #ffd8db;
+    color: #937bca;
+    font-weight: bold;
+}
+
+.Login-button:hover{
+    box-shadow: 0 8px 16px 0 #ffd8db;
+    border: none;
+    border-radius: 30px;
+}
+
+.account-button{
+    background-color: #5243c0;
+    color: white;
+}
+
+.content-page{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    margin:0px 80px;
+}
+
+.tickmark{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #fafafa;
+
+}
+
+.tickmark-blue{
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.grey-blue{
+    width: 30px;
+    height: 30px;
+    background-image: url("/images/tick-gray.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.grey-blue:hover{
+    width: 32px;
+    height: 32px;
+    background-image: url("/images/tick-blue.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading-tickmark{
+    width: 60px;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.heading1{
+    margin: 0px;
+    padding: 5px
+}
+
+.heading2{
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 5px
+}
+
+.button-arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+.arrow{
+    margin: 10px;
+    
+}
+
+.second-content{
+    /* border: 5px solid black; */
+}
+
+.third-content{
+
+}
